@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <ctime>
 int generateotp() {
     char arr[9];
     arr[8] = '\0';
