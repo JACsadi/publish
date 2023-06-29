@@ -15,7 +15,7 @@ int binexp(int b, int e) {
     return mul;
     
 }
-int f(int k) {
+int nth_digit_of_the_seq(int k) {
  int tp = 987654321;
  int j = 1;
  while(k >9*(tp % binexp(10,j))) {
@@ -30,7 +30,7 @@ int f(int k) {
 int main () {
    int n;
    scanf("%d", &n);
-   int k = f(n); 
+   int k = nth_digit_of_the_seq(n); 
    printf("%d", k);
    return 0;
 }
