@@ -1,3 +1,4 @@
+//maybe i should add error handling 
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
@@ -14,7 +15,7 @@ int main() {
     sprintf(strformat, "D:\\Branch %c\\section %d\\revenue.in", j, i);
     // printf("%s\n", strformat);
     rev = fopen(strformat, "r+");
-    sprintf(strformat, "D:\\Branch %c\\section %d\\expanses.out", j, i);
+    sprintf(strformat, "D:\\Branch %c\\section %d\\expense.out", j, i);
     exp = fopen(strformat, "r+");;
     fscanf(rev, "%d", &r);
     fscanf(exp, "%d", &e);
