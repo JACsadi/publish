@@ -21,8 +21,8 @@ int main() {
     sum += (r - e);
     fclose(rev);
     fclose(exp);
-  }
-     fprintf(out, "%d\n", sum);
+  } 
+     if (sum >= 0)   fprintf(out, "Total Profit = %d\n", sum);
      printf("%d\n", sum);
      j++;
   }
