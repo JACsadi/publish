@@ -23,7 +23,7 @@ int main() {
     fclose(exp);
   } 
      if (sum >= 0)   fprintf(out, "Total Profit = %d\n", sum);
-     printf("%d\n", sum);
+     else  fprintf(out, "Total Loss = %d\n", -1*sum);
      j++;
   }
  fclose(out);
