@@ -35,6 +35,7 @@ int main () {
    {
    printf("INPUT THE position of the element, 0 to terminate:\n");
    scanf("%d", &n);
+   if(n <= 0) break;
    printf("%c\n", nth_digit_of_the_seq(n));
    }
    printf("500 miles");
